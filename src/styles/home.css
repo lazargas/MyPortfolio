@@ -1,0 +1,13 @@
+.scrollSectionOuter {
+    overflow: hidden;
+  }
+  
+
+  
+  .scroll-section {
+    height: auto;
+    width: 300vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
