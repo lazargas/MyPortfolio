@@ -4,7 +4,7 @@ import "../styles/home.css";
 const HomeHero = () => {
   return (
     <>
-      <div className="bg-black font-mori h-screen w-[100vw] flex justify-start items-center text-white text-[60px] md:text-[120px]">
+      <div className="bg-black font-mori h-screen w-[100vw] flex justify-center items-center text-white text-[60px] md:text-[120px]">
         <p className="home" >Home</p>
       </div>
     </>

@@ -11,6 +11,7 @@ gsap.registerPlugin(useGSAP, ScrollTrigger);
 const Home = ({ children }) => {
   const main = useRef(null);
   const section = useRef(null);
+  const smoother = useRef(null);
 
   useGSAP(() => {
 
@@ -37,10 +38,11 @@ const Home = ({ children }) => {
         end: "300% top", // Set the end to be the total width of all items
         scrub: 0.5, // Adjust the scrubbing speed
         pin: true, // Pin the container while scrolling
-        ease: "elastic"
+        ease: "none",
+        markers: false
       },
     });
-    ScrollTrigger.defaults({ markers: { startColor: "white", endColor: "white" } });
+    //ScrollTrigger.defaults({ markers: { startColor: "white", endColor: "white" } });
 
   }, { scope: main })
 

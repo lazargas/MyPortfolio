@@ -21,6 +21,11 @@ code {
   src: url(./assets/fonts/PPMori-SemiBold.otf);
 }
 
+@font-face {
+  font-family: helvetica;
+  src: url(./assets//fonts/HelveticaNowText-ExtraBold.ttf);
+}
+
 ::-webkit-scrollbar{
   display: none;
 }

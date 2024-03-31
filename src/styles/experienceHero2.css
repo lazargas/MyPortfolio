@@ -1,0 +1,14 @@
+svg {
+    display:none;
+    position:relative;
+    display: block;
+    margin: 20px auto;
+    width:700px;
+    max-height: 70vh;
+  }
+  
+  #logo{
+    visibility:hidden;
+  }
+  
+ 

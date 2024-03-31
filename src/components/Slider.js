@@ -4,10 +4,14 @@ import { gsap } from "gsap-trial";
 
 gsap.registerPlugin(useGSAP);
 
+
 const Slider = () => {
   const container = useRef(null);
   useGSAP(() => {
     const tl = gsap.timeline();
+    //const splitText = new SplitText(".text", { type: "chars" });
+    //let chars = splitText.chars;
+
     tl.from(".text", {
       yPercent: 100,
       duration: 1.25,

@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     fontFamily: {
       mori: ['mori', 'sans'], // Replace 'YourFontName' with the name of your font
+      helvetica: ['helvetica', 'sans']
     },
     extend: {},
   },
